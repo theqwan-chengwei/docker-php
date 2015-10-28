@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.3
+FROM debian:7
 MAINTAINER ChengWei <chengwei@theqwan.com>
 
 RUN apt-get update
