@@ -1,4 +1,4 @@
-FROM debian:7
+FROM ubuntu:12.04.5
 MAINTAINER ChengWei <chengwei@theqwan.com>
 
 RUN apt-get update
