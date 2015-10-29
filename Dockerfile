@@ -6,4 +6,5 @@ RUN apt-get update \
     && apt-get purge -y --auto-remove \
     && rm -r /var/lib/apt/lists/* 
 
+EXPOSE 9000
 CMD ["/bin/bash"]
