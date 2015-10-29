@@ -6,5 +6,4 @@ RUN apt-get update \
     && apt-get purge -y --auto-remove \
     && rm -r /var/lib/apt/lists/*
 
-
-CMD ["php-fpm -D"]
+CMD ["/bin/bash"]
